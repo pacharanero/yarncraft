@@ -8,7 +8,7 @@ const config = {
   title: 'Crochet Pattern Viewer',
   tagline: 'Interactive patterns with stitch tooltips and progress tracking',
   url: 'https://example.com',
-  baseUrl: '/',
+  baseUrl: '/experimental/',
   favicon: 'img/favicon.ico',
   organizationName: 'crochet',
   projectName: 'viewer',
