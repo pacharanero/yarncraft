@@ -30,6 +30,13 @@ abbr {
   list-style: none;
 }
 
+.task-list-item > input[type='checkbox'] {
+  width: 1.15rem;
+  height: 1.15rem;
+  margin-right: 0.35rem;
+  accent-color: var(--ifm-color-primary);
+}
+
 a {
   font-weight: 600;
 }

@@ -19,6 +19,11 @@ const writeState = (key, value) => {
 
 const hydrate = (checkboxes, state) => {
   checkboxes.forEach((input, index) => {
+    // GitHub-flavored markdown renders task list checkboxes as disabled by default.
+    // Enable them so taps work on touch devices.
+    // eslint-disable-next-line no-param-reassign
+    input.disabled = false;
+
     const checked = state?.[index];
     if (typeof checked === 'boolean') {
       // eslint-disable-next-line no-param-reassign
