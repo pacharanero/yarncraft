@@ -2,7 +2,7 @@
 
 Standard crochet abbreviations collected from the Craft Yarn Council reference.
 
-## Core stitches and instructions
+## U.S. stitch abbreviations
 
 | Abbreviation | Description |
 | --- | --- |
@@ -73,6 +73,21 @@ Standard crochet abbreviations collected from the Craft Yarn Council reference.
 | yo | yarn over |
 | yoh | yarn over hook |
 
+## U.S. and U.K. abbreviations
+
+| Stitch | U.S. abbreviation | U.K. abbreviation |
+| --- | --- | --- |
+| slip stitch | sl st | ss |
+| single crochet / double crochet | sc | dc |
+| half double crochet / half treble | hdc | htr |
+| double crochet / treble | dc | tr |
+| treble crochet / double treble | tr | dtr |
+| double treble / triple treble | dtr | trtr |
+| triple treble / quadruple treble | trtr | qtr |
+| yarn over | yo | yoh |
+| right side | RS | RS |
+| wrong side | WS | WS |
+
 ## Tunisian crochet abbreviations
 
 | Abbreviation | Description |
@@ -91,3 +106,15 @@ Standard crochet abbreviations collected from the Craft Yarn Council reference.
 | tslst | Tunisian slip stitch |
 | ttr | Tunisian treble crochet |
 | ttw | Tunisian twisted |
+
+## Common measurement abbreviations
+
+| Measurement | Description |
+| --- | --- |
+| ” or in | inch |
+| cm | centimeter |
+| g | gram |
+| m | meter |
+| mm | millimeter |
+| oz | ounce |
+| yd | yard |
