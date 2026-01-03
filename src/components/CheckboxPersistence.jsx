@@ -23,6 +23,11 @@ const hydrate = (checkboxes, state) => {
     // Enable them so taps work on touch devices.
     // eslint-disable-next-line no-param-reassign
     input.disabled = false;
+    input.removeAttribute('disabled');
+    input.removeAttribute('aria-disabled');
+    // Some mobile browsers keep disabled inputs non-interactive without pointer events reset.
+    // eslint-disable-next-line no-param-reassign
+    input.style.pointerEvents = 'auto';
 
     const checked = state?.[index];
     if (typeof checked === 'boolean') {
