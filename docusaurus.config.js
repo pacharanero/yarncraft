@@ -7,11 +7,11 @@ import abbrRemark from './plugins/abbrRemark.js';
 const config = {
   title: 'YarnCraft',
   tagline: 'Interactive knitting and crochet patterns with stitch glossary and progress tracking',
-  url: 'https://pacharanero.github.io/yarncraft/',
+  url: 'https://pacharanero.github.io',
   baseUrl: '/yarncraft/',
   favicon: 'img/favicon.ico',
-  organizationName: 'Koloki.co',
-  projectName: 'viewer',
+  organizationName: 'pacharanero',
+  projectName: 'yarncraft',
   onBrokenLinks: 'throw',
   markdown: {
     hooks: {
