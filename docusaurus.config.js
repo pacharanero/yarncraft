@@ -5,12 +5,12 @@ import abbrRemark from './plugins/abbrRemark.js';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Crochet Pattern Viewer',
-  tagline: 'Interactive patterns with stitch tooltips and progress tracking',
-  url: 'https://example.com',
-  baseUrl: '/experimental/',
+  title: 'YarnCraft',
+  tagline: 'Interactive knitting and crochet patterns with stitch glossary and progress tracking',
+  url: 'https://pacharanero.github.io/yarncraft/',
+  baseUrl: '/yarncraft/',
   favicon: 'img/favicon.ico',
-  organizationName: 'crochet',
+  organizationName: 'Koloki.co',
   projectName: 'viewer',
   onBrokenLinks: 'throw',
   markdown: {
