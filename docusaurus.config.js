@@ -5,7 +5,7 @@ import abbrRemark from './plugins/abbrRemark.js';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'YarnCraft',
+  title: 'yarncraft',
   tagline: 'Interactive knitting and crochet patterns with stitch glossary and progress tracking',
   url: 'https://pacharanero.github.io',
   baseUrl: '/yarncraft/',
@@ -40,9 +40,9 @@ const config = {
   ],
   themeConfig: {
     navbar: {
-      title: 'Crochet Patterns',
+      title: 'yarncraft',
       logo: {
-        alt: 'Crochet pattern viewer logo',
+        alt: 'yarncraft - a simple site for text-based crochet and knitting patterns',
         src: 'img/logo.svg',
       },
       items: [
@@ -52,7 +52,7 @@ const config = {
     },
     footer: {
       style: 'dark',
-      copyright: `Built for interactive crochet viewing.`,
+      copyright: `ⓒ Copyright 2026 Koloki.co.`,
     },
     prism: {
       theme: prismThemes.github,
