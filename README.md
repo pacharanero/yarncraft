@@ -1,8 +1,16 @@
-# Crochet pattern viewer
+# `yarncraft`
 
 Docusaurus-powered prototype for rendering crochet patterns with interactive abbreviations, local progress tracking, and a stitch counter.
 
-## Getting started
+Use it at https://pacharanero.github.io/yarncraft/
+
+## LLM-assisted Development
+
+* **All new patterns must be free, open-source, and compatible with the licensing of this repository. We do not want to include copyrighted work.**
+* Even non-techical users can easily learn to add new content using an LLM, such as Claude Code, OpenAI Codex, or similar. 
+* I will add some instructions on how to do this soon.
+
+## Local Development
 
 ```bash
 npm install
@@ -28,4 +36,4 @@ Then open http://localhost:3000 to explore the sample pattern.
 
 ## Deployment
 - A GitHub Actions workflow (`.github/workflows/deploy.yml`) builds the site and publishes it to GitHub Pages on pushes to `main` (or when manually triggered).
-- Update `url` and `baseUrl` in `docusaurus.config.js` to reflect your repository or custom domain before enabling Pages.
+
