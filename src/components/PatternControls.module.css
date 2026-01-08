@@ -42,6 +42,24 @@
   color: var(--ifm-color-primary-darker);
 }
 
+.timer {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-top: 0.4rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.timerLabel {
+  font-size: 0.85rem;
+  color: var(--ifm-color-primary-darker);
+}
+
+.timer output {
+  font-weight: 700;
+  color: var(--ifm-color-primary-darker);
+}
+
 .actions {
   margin-left: auto;
 }
